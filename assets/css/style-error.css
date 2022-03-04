@@ -1352,12 +1352,17 @@ body {
   color: var(--clr-dark-blue-500);
   transition: color 300ms ease-in-out;
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1366px) {
+  .info::before {
+    width: 40rem;
+  }
+}
+@media only screen and (max-width: 1112px) {
   .info::before {
     width: 25rem;
   }
 }
-@media only screen and (max-width: 576px) {
+@media only screen and (max-width: 768px) {
   .info {
     display: none !important;
   }
