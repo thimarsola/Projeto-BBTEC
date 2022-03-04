@@ -1,0 +1,26 @@
+{
+  "pin": [
+    {
+      "image": "701.jpg",
+      "title": "Grupo 701",
+      "description": [
+        "Submetidas à compressão quando montados em um furo, os pinos elásticos exercem pressão contra toda a área das paredes do furo, desenvolvendo uma ação de travamento.",
+        "Os pinos são produzidos com diâmetros controlados maiores que o diâmetro do furo onde serão montados."
+      ],
+      "standard": "DIN 1481",
+      "dimension": "mm",
+      "file": "pinos_elasticos_701.pdf"
+    },
+    {
+      "image": "704.jpg",
+      "title": "Grupo 704",
+      "description": [
+        "Submetidas à compressão quando montados em um furo, os pinos elásticos exercem pressão contra toda a área das paredes do furo, desenvolvendo uma ação de travamento.",
+        "Os pinos são produzidos com diâmetros controlados maiores que o diâmetro do furo onde serão montados."
+      ],
+      "standard": "DIN 7344",
+      "dimension": "mm",
+      "file": "pinos_elasticos_704.pdf"
+    }
+  ]
+}

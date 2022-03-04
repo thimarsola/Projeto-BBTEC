@@ -1,0 +1,222 @@
+@use "../../abstracts" as *;
+
+.single{
+  &__row{
+    grid-template-columns: 1fr max(35rem);
+
+    &__content{
+      &__body{
+        h2, h3, h4{
+          text-align: left;
+        }
+
+        h2{
+          margin-top: var(--fs-400);
+          margin-bottom: var(--fs-400);
+          font-size: var(--fs-500);
+        }
+
+        h3{
+          margin-top: var(--fs-300);
+          margin-bottom: var(--fs-300);
+          font-size: var(--fs-400);
+        }
+
+        h4{
+          margin-top: var(--fs-200);
+          margin-bottom: var(--fs-200);
+          font-size: var(--fs-300);
+        }
+
+        p{
+          &:not(:last-child){
+            margin-bottom: var(--fs-200);
+          }
+        }
+
+        ul{
+          list-style-type: disc;
+          list-style-position: inside;
+        }
+
+        ol{
+          list-style-type: decimal;
+          list-style-position: inside;
+        }
+
+        strong{
+          font-family: var(--bold);
+        }
+
+        a{
+          color: inherit;
+          @include transition(color);
+
+          &:hover{
+            color: var(--clr-primary-500);
+            @include transition(color);
+          }
+        }
+
+        figure{
+          margin: var(--fs-400) 0;
+          width: 100%;
+
+          img{
+            width: 100%;
+          }
+
+          figcaption{
+            margin-top: var(--fs-100);
+            font-size: smaller;
+            text-align: center;
+          }
+        }
+      }
+
+      &__share{
+        &__links{
+          gap: var(--fs-300);
+          line-height: 1 !important;
+
+          ul{
+            display: flex;
+            align-items: center;
+            gap: var(--fs-300);
+
+            li{
+              width: var(--fs-600);
+              height: var(--fs-600);
+              color: var(--clr-dark-blue-500);
+              border-radius: 50%;
+              background: var(--clr-white-500);
+              @include transition(all);
+
+              &:hover{
+                color: var(--clr-white-500);
+                background: var(--clr-primary-500);
+                @include transition(all);
+              }
+
+              a{
+                width: 100%;
+                height: 100%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+              }
+            }
+          }
+        }
+      }
+    }
+
+    &__sidebar{
+      .title{
+        margin-bottom: var(--fs-400) !important;
+
+        &__divider{
+          margin-top: 12px;
+        }
+      }
+
+      &__highlight{
+        &__content{
+          display: flex;
+          flex-direction: column;
+          gap: var(--fs-400);
+
+          &__card{
+            display: flex;
+            align-items: center;
+            gap: var(--gap);
+
+            &__thumb{
+              img{
+                filter: none;
+                @include transition(filter);
+
+                &:hover{
+                  filter: blur(1px);
+                  @include transition(filter);
+                }
+              }
+            }
+
+            &__content{
+              &__header{
+                font-size: 1.8rem;
+              }
+            }
+          }
+        }
+      }
+
+      &__categories{
+        &__content{
+          ul{
+            li{
+              font-family: var(--bold) !important;
+              color: var(--clr-neutral-500);
+              line-height: 1.1!important;
+              @include transition(color);
+
+              &:not(:last-child){
+                margin-bottom: var(--fs-200);
+              }
+
+              &:hover{
+                color: var(--clr-primary-500);
+                @include transition(color);
+              }
+
+              &::before{
+                font-family: 'icon';
+                font-size: 12px;
+                content: '\e902';
+                margin-right: var(--fs-100);
+              }
+            }
+          }
+        }
+      }
+
+      &__social{
+        ul{
+          li{
+            width: 5rem;
+            height: 5rem;
+            color: var(--clr-dark-blue-500);
+            line-height: 1.1!important;
+            border-radius: 50%;
+            background: var(--clr-primary-500);
+            @include transition(all);
+
+            &:hover{
+              background: darken($primary, 10%);
+              color: var(--clr-white-500);
+              @include transition(all);
+            }
+
+            a{
+              width: 100%;
+              height: 100%;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              font-size: 2rem;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  //breakpoint tablet
+  @include mq(md){
+    &__row{
+      grid-template-columns: 1fr;
+      gap: var(--fs-800);
+    }
+  }
+}

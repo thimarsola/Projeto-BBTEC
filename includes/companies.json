@@ -1,0 +1,44 @@
+{
+  "companies": [
+    {
+      "title": "Abratec",
+      "logo": "logo-abratec",
+      "description": {
+        "address": "R. Eucalipto, 420 - Bairro Arvoredo, Contagem - MG <br>CEP: 32113-180",
+        "addressLink": "https://goo.gl/maps/sKm9tNVpTfeyY9WR8",
+        "phone": "(31) 3371-7788",
+        "mail": "vendasbh@industriasrc.com.br"
+      }
+    },
+    {
+      "title": "BBTEC",
+      "logo": "logo-bbtec",
+      "description": {
+        "address": "Av. Marginal do Córrego da Serraria, 54 - Conceição, Diadema - SP <br>CEP: 09980-390",
+        "addressLink": "https://goo.gl/maps/PELtvJrhrjLAFkSa7",
+        "phone": "(11) 5563-5824",
+        "mail": "comercial@barramentosblindados.com.br"
+      }
+    },
+    {
+      "title": "Industrial Tecno-Fix",
+      "logo": "logo-industrial-tecno-fix",
+      "description": {
+        "address": "Avenida Riachuelo, 85 - Vila Conceição, Diadema - SP <br>CEP: 09912-190",
+        "addressLink": "https://goo.gl/maps/PdfQYD1zifDiT7Uu6",
+        "phone": "(11) 5563-5824",
+        "mail": "vendas@industriasrc.com.br"
+      }
+    },
+    {
+      "title": "KSB Borrachas",
+      "logo": "logo-ksb-borrachas",
+      "description": {
+        "address": "Avenida Riachuelo, 85 - Fundos - Vila Conceição, Diadema - SP <br>CEP: 09912-190",
+        "addressLink": "https://goo.gl/maps/Czto9TTB29FTbaFD7",
+        "phone": "(11) 5563-5824",
+        "mail": "vendas@ksbborrachas.com.br"
+      }
+    }
+  ]
+}

@@ -1,0 +1,129 @@
+{
+  "retention": [
+    {
+      "image": "501.jpg",
+      "title": "Grupo 501",
+      "description": [
+        "Tipo mais comum de Anel de Retenção, oferece a melhor solução quanto a espessura e largura radial.",
+        "Sua seção não-uniforme assegura circularidade e pressão sobre ranhura constantes.",
+        "É seguro em cargas e rotações altas."
+      ],
+      "type": "E",
+      "standard": "DIN 471",
+      "dimension": "mm",
+      "file": "aneis_de_retencao_501.pdf"
+    },
+    {
+      "image": "502.jpg",
+      "title": "Grupo 502",
+      "description": [
+        "Tipo mais comum de Anel de Retenção, oferece a melhor solução quanto a espessura e largura radial.",
+        "Sua seção não-uniforme assegura circularidade e pressão sobre a ranhura constantes."
+      ],
+      "type": "I",
+      "standard": "DIN 472",
+      "dimension": "mm",
+      "file": "aneis_de_retencao_502.pdf"
+    },
+    {
+      "image": "503.jpg",
+      "title": "Grupo 503",
+      "description": [
+        "É o anel de retenção para eixos montados radialmente mais comumente utilizado.",
+        "Propicia uma grande face de contato para eixos de pequeno diâmetro.",
+        "Diâmetro de aplicação : 0,8 - 30 mm."
+      ],
+      "type": "RS",
+      "standard": "DIN 6799",
+      "dimension": "mm",
+      "file": "aneis_de_retencao_503.pdf"
+    },
+    {
+      "image": "504.jpg",
+      "title": "Grupo 504",
+      "description": [
+        "Anéis para eixo montados radialmente, desenhados com o conceito Seeger de seção não-uniforme e tensão constante.",
+        "Formam um encosto estreito e uniformemente concêntrico. São excelentes para montagem onde o espaço é limitado.",
+        "Diâmetro de aplicação : 3 - 55 mm"
+      ],
+      "type": "ML",
+      "standard": "Seeger 33",
+      "dimension": "mm",
+      "file": "aneis_de_retencao_504.pdf"
+    },
+    {
+      "image": "519.jpg",
+      "title": "Grupo 519",
+      "description": [
+        "Anel de Retenção Invertido com menor altura dos olhais, para aplicação onde a altura dos olhais e um anel de retenção normal é impraticável.",
+        "Diâmetro de aplicação : 10 - 100 mm"
+      ],
+      "type": "IV",
+      "standard": "Seeger 15",
+      "dimension": "mm",
+      "file": "aneis_de_retencao_519.pdf"
+    },
+    {
+      "image": "525.jpg",
+      "title": "Grupo 525",
+      "description": [
+        "Retenção de peças como vedadores em eixos, os anéis circulares de auto-retenção são a melhor solução para montagem que requerem baixa altura radial. Seus dentes cravam no fundo.",
+        "Funcionam da melhor maneira quando montados em eixo sem tratamento térmico e sem proteção galvânica ou lubrificante.",
+        "Diâmetro de aplicação: 1,5 - 45 mm"
+      ],
+      "type": "ARE",
+      "standard": "Seeger 24",
+      "dimension": "mm",
+      "file": "aneis_de_retencao_525.pdf"
+    },
+    {
+      "image": "526.jpg",
+      "title": "Grupo 526",
+      "description": [
+        "Utilizado na retenção de peças como vedadores em furos, os anéis circulares de auto-retenção são a melhor solução para montagem que requerem baixa altura radial. Seus dentes cravam no furo.",
+        "Funcionam da melhor maneira quando montados em furo sem tratamento térmico e sem proteção galvânica ou lubrificante.",
+        "Diâmetro de aplicação: 8 - 46 mm"
+      ],
+      "type": "ARI",
+      "standard": "Seeger 25",
+      "dimension": "mm",
+      "file": "aneis_de_retencao_526.pdf"
+    },
+    {
+      "image": "527.jpg",
+      "title": "Grupo 527",
+      "description": [
+        "Mesmo princípio básico do Grupo 525 - Norma Seeger 24.",
+        "Diâmetro de aplicação: 3/32 - 1 pol."
+      ],
+      "type": "ARE",
+      "standard": "Truarc 5105",
+      "dimension": "pol.",
+      "file": "aneis_de_retencao_527.pdf"
+    },
+    {
+      "image": "528.jpg",
+      "title": "Grupo 528",
+      "description": [
+        "Mesmo princípio básico do Grupo 525 - Norma Seeger 24.",
+        "Diâmetro de aplicação: 5/16 - 2 pol."
+      ],
+      "type": "ARI",
+      "standard": "Truarc 5105",
+      "dimension": "pol.",
+      "file": "aneis_de_retencao_528.pdf"
+    },
+    {
+      "image": "533.jpg",
+      "title": "Grupo 533",
+      "description": [
+        "Mesmo princípio básico do Grupo 503 - Norma Din 6799.",
+        "Diâmetro de aplicação: 1/16 - 1.3/8 pol."
+      ],
+      "type": "ARE",
+      "standard": "Truarc 5131",
+      "dimension": "pol.",
+      "file": "aneis_de_retencao_533.pdf"
+    }
+  ]
+}

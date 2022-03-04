@@ -1,0 +1,53 @@
+@use "../../abstracts" as *;
+
+.politics{
+  &__container{
+    padding: var(--fs-1000);
+
+    .title{
+      margin-bottom: var(--fs-500) !important;
+    }
+
+    &__content{
+      p{
+        &:not(:last-child){
+          margin-bottom: var(--fs-200);
+        }
+      }
+
+      h3{
+        margin-top: var(--fs-300);
+        margin-bottom: var(--fs-400);
+        font-size: var(--fs-300);
+      }
+
+      h4{
+        margin-top: var(--fs-300);
+        margin-bottom: var(--fs-400);
+        font-size: 2rem;
+      }
+
+      ul{
+        padding-left: var(--fs-600);
+        list-style: disc;
+        list-style-position: inside;
+
+        li{
+          &:not(:last-child){
+            margin-bottom: var(--fs-200);
+          }
+        }
+      }
+
+      ol{
+        padding-left: var(--fs-600);
+        list-style: decimal;
+        list-style-position: inside;
+
+        li{
+          margin-bottom: var(--fs-200);
+        }
+      }
+    }
+  }
+}

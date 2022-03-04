@@ -1,0 +1,48 @@
+@use "../../abstracts" as *;
+
+.hero{
+  min-height: 30rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  &__about{
+    background:{
+      image: url("../images/background-quem-somos.jpg");
+      size: cover;
+      position: center;
+    }
+  }
+
+  &__page{
+    background:{
+      image: url("../images/background-servicos.jpg");
+      size: cover;
+      position: center;
+    }
+  }
+
+  &__contact{
+    background:{
+      image: url("../images/background-contato.jpg");
+      size: cover;
+      position: center;
+    }
+  }
+
+  &__companies{
+    background:{
+      image: url("../images/background-empresas.jpg");
+      size: cover;
+      position: center;
+    }
+  }
+
+  &__blog{
+    background:{
+      image: url("../images/background-blog.jpg");
+      size: cover;
+      position: center;
+    }
+  }
+}

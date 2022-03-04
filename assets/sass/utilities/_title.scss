@@ -1,0 +1,42 @@
+@use "../abstracts/mixins" as *;
+
+.title{
+  margin-bottom: var(--fs-800);
+  text-align: center;
+
+  p{
+    margin-bottom: var(--fs-100);
+    font-family: var(--bold) !important;
+    color: var(--clr-primary-500);
+    text-transform: uppercase;
+  }
+
+  &__divider{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+
+    span{
+      display: block;
+      background: var(--clr-primary-500);
+
+      &:nth-child(1){
+        width: 40px;
+        height: 4px;
+      }
+
+      &:nth-child(2){
+        width: 5px;
+        height: 4px;
+      }
+    }
+  }
+
+  //breakpoint mobile
+  @include mq(sm){
+    h2{
+      font-size: var(--fs-600);
+    }
+  }
+}
