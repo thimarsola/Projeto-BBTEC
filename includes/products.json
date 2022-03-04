@@ -1,36 +1,60 @@
 {
-  "products": [
-    {
-      "title": "Usinagem",
-      "icon": "usinagem"
-    },
-    {
-      "title": "Anéis e Pinos Elásticos",
-      "icon": "anies-e-pinos-elasticos"
-    },
-    {
-      "title": "Linha de Fixadores",
-      "icon": "linha-de-fixadores"
-    },
-    {
-      "title": "Estamparia",
-      "icon": "estamparia"
-    },
-    {
-      "title": "Arruelas",
-      "icon": "arruelas"
-    },
-    {
-      "title": "Molas Prato",
-      "icon": "molas-pratos"
-    },
-    {
-      "title": "Metal x Borracha",
-      "icon": "metal-x-borracha"
-    },
-    {
-      "title": "Barramento Blindado",
-      "icon": "barramento-blindado"
-    }
-  ]
+    "products": [
+        {
+            "title": "Barramento Blindado",
+            "subtitle": "Barra Espaçada",
+            "image": "barra-espacada",
+            "link": "Barra Espaçada",
+            "release": false
+        },
+        {
+            "title": "Barramento Blindado",
+            "subtitle": "Compacto de Barra Colada",
+            "image": "compacto-de-barra-colada",
+            "link":  "Compacto de Barra Colada",
+            "release": false
+        },
+        {
+            "title": "Barramento Blindado",
+            "subtitle": "Barramento Ventilado",
+            "image": "barramento-ventilado",
+            "link":  "Barramento Ventilado",
+            "release": false
+        },
+        {
+            "title": "Cofre de Derivação",
+            "subtitle": "Plug-in",
+            "image": "cofre-de-derivacao",
+            "link":  "Cofre de Derivação (Plug-in)",
+            "release": false
+        },
+        {
+            "title": "Mini-Way",
+            "subtitle": "Trilho Eletrificado",
+            "image": "mini-way",
+            "link":  "Mini-way (Trilho Eletrificado)",
+            "release": false
+        },
+        {
+            "title": "QGBT",
+            "subtitle": "Quadro Geral de Baixa Tensão",
+            "image": "qgbt",
+            "link":  "QGBT",
+            "release": false
+        },
+        {
+            "title": "QDC",
+            "subtitle": "Quadro de Distribuição Compacto",
+            "image": null,
+            "link":  null,
+            "release": true
+        },
+        {
+            "title": "Caixa Mec",
+            "subtitle": "Caixa de Medição Eletrônica",
+            "image": null,
+            "link":  null,
+            "release": true
+        }
+    ]
 }

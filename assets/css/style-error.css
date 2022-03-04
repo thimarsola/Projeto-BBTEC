@@ -9,10 +9,11 @@
   --clr-neutral-500: #666666;
   --clr-white-500: #fff;
   --clr-whatsapp-500: #25D366;
-  --clr-light-blue-500: #EEF1F6;
+  --clr-light-gray-500: #F5F5F5;
   --clr-blue-500: #29438F;
   --clr-dark-blue-500: #081740;
   --clr-gray-500: #999;
+  --clr-release-500: #ccc;
   --fs-100: 0.8rem;
   --fs-200: 1.6rem;
   --fs-300: 2.4rem;
@@ -276,8 +277,8 @@ body {
   background-color: var(--clr-whatsapp-500) !important;
 }
 
-.bg-light-blue-500 {
-  background-color: var(--clr-light-blue-500) !important;
+.bg-light-gray-500 {
+  background-color: var(--clr-light-gray-500) !important;
 }
 
 .bg-blue-500 {
@@ -290,6 +291,10 @@ body {
 
 .bg-gray-500 {
   background-color: var(--clr-gray-500) !important;
+}
+
+.bg-release-500 {
+  background-color: var(--clr-release-500) !important;
 }
 
 .clr-primary-500 {
@@ -308,8 +313,8 @@ body {
   color: var(--clr-whatsapp-500) !important;
 }
 
-.clr-light-blue-500 {
-  color: var(--clr-light-blue-500) !important;
+.clr-light-gray-500 {
+  color: var(--clr-light-gray-500) !important;
 }
 
 .clr-blue-500 {
@@ -322,6 +327,10 @@ body {
 
 .clr-gray-500 {
   color: var(--clr-gray-500) !important;
+}
+
+.clr-release-500 {
+  color: var(--clr-release-500) !important;
 }
 
 .container {
@@ -1171,14 +1180,14 @@ body {
   transition: all 300ms ease-in-out;
 }
 
-.btn-light-blue-500 {
-  background-color: #EEF1F6;
+.btn-light-gray-500 {
+  background-color: #F5F5F5;
   color: var(--clr-white-500);
   transition: all 300ms ease-in-out;
 }
-.btn-light-blue-500:hover {
+.btn-light-gray-500:hover {
   color: #f8f8f8;
-  background-color: #cdd6e4;
+  background-color: gainsboro;
   transition: all 300ms ease-in-out;
 }
 
@@ -1212,6 +1221,17 @@ body {
 .btn-gray-500:hover {
   color: #f8f8f8;
   background-color: gray;
+  transition: all 300ms ease-in-out;
+}
+
+.btn-release-500 {
+  background-color: #ccc;
+  color: var(--clr-white-500);
+  transition: all 300ms ease-in-out;
+}
+.btn-release-500:hover {
+  color: #f8f8f8;
+  background-color: #b3b3b3;
   transition: all 300ms ease-in-out;
 }
 
@@ -1251,12 +1271,12 @@ body {
   transition: all 300ms ease-in-out;
 }
 
-.link-light-blue-500 {
-  color: #EEF1F6;
+.link-light-gray-500 {
+  color: #F5F5F5;
   transition: all 300ms ease-in-out;
 }
-.link-light-blue-500:hover, .link-light-blue-500:focus {
-  color: #cdd6e4;
+.link-light-gray-500:hover, .link-light-gray-500:focus {
+  color: gainsboro;
   transition: all 300ms ease-in-out;
 }
 
@@ -1284,6 +1304,15 @@ body {
 }
 .link-gray-500:hover, .link-gray-500:focus {
   color: gray;
+  transition: all 300ms ease-in-out;
+}
+
+.link-release-500 {
+  color: #ccc;
+  transition: all 300ms ease-in-out;
+}
+.link-release-500:hover, .link-release-500:focus {
+  color: #b3b3b3;
   transition: all 300ms ease-in-out;
 }
 
