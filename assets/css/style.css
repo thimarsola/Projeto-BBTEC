@@ -2347,7 +2347,7 @@ img.mfp-img {
   width: 100%;
   height: 30rem;
   content: "";
-  background: var(--clr-light-blue-500);
+  background: var(--clr-light-gray-500);
   z-index: -1;
 }
 .certification__row {
