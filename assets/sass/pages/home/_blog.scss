@@ -1,51 +1,39 @@
 @use "../../abstracts" as *;
 
 .blog{
-  background: linear-gradient(#f2f2f2, transparent);
+    background: linear-gradient(#f2f2f2, transparent);
 
-  &__row{
-    &__card{
-      &__thumb{
-        position: relative;
-
-        img{
-          filter: none;
-          @include transition(filter);
-
-          &:hover{
-            filter: blur(1px);
-            @include transition(filter);
-          }
-        }
-
-        &__published{
-          position: absolute;
-          bottom: -3.7rem;
-          right: 3rem;
-
-          &__body{
-            min-width: 8rem;
-
-            &:nth-child(1){
-              padding: .4rem 1.5rem;
-              font-size: 2rem;
+    &__row{
+        grid-template-columns: repeat(3, 1fr);
+        
+        &__card{
+            
+            &__header{
+                a{
+                    &:hover{
+                        color: var(--clr-dark-blue-500);
+                    }
+                }
             }
+            
+            &__body{
+                padding: calc(var(--gap) * 2) var(--gap);
+                font-size: 1.4rem;
 
-            &:nth-child(2){
-              padding: .8rem 1.5rem;
-              font-size: 1.4rem;
+                i{
+                    margin-left: .4rem;
+                }
             }
-          }
         }
-      }
-
-      &__body{
-        font-size: 1.4rem;
-
-        i{
-          margin-left: .4rem;
-        }
-      }
     }
-  }
+    
+    //breakpoint tablet
+    @include mq(md){
+        grid-template-columns: repeat(2, 1fr);
+    }
+    
+    //breakpoint mobile
+    @include mq(sm){
+        grid-template-columns: 1fr;
+    }
 }

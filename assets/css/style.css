@@ -2446,38 +2446,28 @@ img.mfp-img {
 .blog {
   background: linear-gradient(#f2f2f2, transparent);
 }
-.blog__row__card__thumb {
-  position: relative;
+.blog__row {
+  grid-template-columns: repeat(3, 1fr);
 }
-.blog__row__card__thumb img {
-  filter: none;
-  transition: filter 300ms ease-in-out;
-}
-.blog__row__card__thumb img:hover {
-  filter: blur(1px);
-  transition: filter 300ms ease-in-out;
-}
-.blog__row__card__thumb__published {
-  position: absolute;
-  bottom: -3.7rem;
-  right: 3rem;
-}
-.blog__row__card__thumb__published__body {
-  min-width: 8rem;
-}
-.blog__row__card__thumb__published__body:nth-child(1) {
-  padding: 0.4rem 1.5rem;
-  font-size: 2rem;
-}
-.blog__row__card__thumb__published__body:nth-child(2) {
-  padding: 0.8rem 1.5rem;
-  font-size: 1.4rem;
+.blog__row__card__header a:hover {
+  color: var(--clr-dark-blue-500);
 }
 .blog__row__card__body {
+  padding: calc(var(--gap) * 2) var(--gap);
   font-size: 1.4rem;
 }
 .blog__row__card__body i {
   margin-left: 0.4rem;
+}
+@media only screen and (max-width: 768px) {
+  .blog {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media only screen and (max-width: 576px) {
+  .blog {
+    grid-template-columns: 1fr;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
