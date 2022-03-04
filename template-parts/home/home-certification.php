@@ -2,7 +2,7 @@
     <!-- row -->
      <div class="certification__row">
          <!-- content -->
-          <div class="certification__row__content bg-blue-500 clr-white-500">
+          <div class="certification__row__content bg-dark-blue-500 clr-white-500">
 
               <!-- header -->
               <header class="certification__row__content__header mb-4">
@@ -12,7 +12,7 @@
 
               <!-- body -->
                <div class="certification__row__content__body t-justify mb-8">
-                   <p>As Indústrias RC tem orgulho de ser um grupo de empresas certificadas ISO 9001. Certificação que reafirma o nosso compromisso com a qualidade dos nossos produtos!</p>
+                   <p>A BBTEC tem orgulho de ser uma empresa certificada ISO 9001:2015. Certificação que reafirma o nosso compromisso com a qualidade dos nossos produtos!</p>
                    <br>
                    <p>A certificação ISO visa promover a normatização de produtos, serviços e processos, com o objetivo de garantir a forma como trabalhamos e rastreabilidade dos mesmos.</p>
                    <br>
@@ -26,12 +26,12 @@
                    $baseurl = wp_get_upload_dir();
                    ?>
 
-                   <a class="t-center" href="<?= $baseurl['baseurl']  . '/2021/certificado-ISO9001.pdf'; ?>" title="Confira o nosso certificado ISO 9001 na versão em português" target="_blank">
+                   <a class="t-center" href="<?= $baseurl['baseurl']  . '/2022/certificado-ISO9001.pdf'; ?>" title="Confira o nosso certificado ISO 9001 na versão em português" target="_blank">
                        <?= picture('imagem-certificado-iso', 'Confira o nosso certificado ISO 9001 na versão em português', null, 'png'); ?>
                        <span class="link-white-500 t-small">Confira o nosso Certificado de Qualidade ISO 9001<br>(versão em português)</span>
                    </a>
 
-                   <a class="t-center" href="<?= $baseurl['baseurl']  . '/2021/certification-ISO9001.pdf'; ?>" title="Confira o nosso certificado ISO 9001 na versão em inglês" target="_blank">
+                   <a class="t-center" href="<?= $baseurl['baseurl']  . '/2022/certification-ISO9001.pdf'; ?>" title="Confira o nosso certificado ISO 9001 na versão em inglês" target="_blank">
                        <?= picture('imagem-certificado-iso', 'Confira o nosso certificado ISO 9001 na versão em português', null, 'png'); ?>
                        <span class="link-white-500 t-small">Confira o nosso Certificado de Qualidade ISO 9001<br>(versão em inglês)</span>
                    </a>
