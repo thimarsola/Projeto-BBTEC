@@ -1,0 +1,36 @@
+{
+  "products": [
+    {
+      "title": "Usinagem",
+      "icon": "usinagem"
+    },
+    {
+      "title": "Anéis e Pinos Elásticos",
+      "icon": "anies-e-pinos-elasticos"
+    },
+    {
+      "title": "Linha de Fixadores",
+      "icon": "linha-de-fixadores"
+    },
+    {
+      "title": "Estamparia",
+      "icon": "estamparia"
+    },
+    {
+      "title": "Arruelas",
+      "icon": "arruelas"
+    },
+    {
+      "title": "Molas Prato",
+      "icon": "molas-pratos"
+    },
+    {
+      "title": "Metal x Borracha",
+      "icon": "metal-x-borracha"
+    },
+    {
+      "title": "Barramento Blindado",
+      "icon": "barramento-blindado"
+    }
+  ]
+}

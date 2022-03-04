@@ -1,0 +1,135 @@
+@use "../../abstracts" as *;
+
+.blog{
+  &__row{
+    grid-template-columns: 1fr max(35rem);
+
+    &__container{
+      &__content{
+        grid-template-columns: 1fr;
+        gap: var(--fs-700);
+
+        &__card{
+
+          img{
+            filter: none;
+            @include transition(filter);
+
+            &:hover{
+              filter: blur(1px);
+              @include transition(filter);
+            }
+          }
+        }
+      }
+    }
+
+    &__sidebar{
+      .title{
+        margin-bottom: var(--fs-400) !important;
+
+        &__divider{
+          margin-top: 12px;
+        }
+      }
+
+      &__highlight{
+        &__content{
+          display: flex;
+          flex-direction: column;
+          gap: var(--fs-400);
+
+          &__card{
+            display: flex;
+            align-items: center;
+            gap: var(--gap);
+
+            &__thumb{
+              img{
+                filter: none;
+                @include transition(filter);
+
+                &:hover{
+                  filter: blur(1px);
+                  @include transition(filter);
+                }
+              }
+            }
+
+            &__content{
+              &__header{
+                font-size: 1.8rem;
+              }
+            }
+          }
+        }
+      }
+
+      &__categories{
+        &__content{
+          ul{
+            li{
+              font-family: var(--bold) !important;
+              color: var(--clr-neutral-500);
+              line-height: 1.1!important;
+              @include transition(color);
+
+              &:not(:last-child){
+                margin-bottom: var(--fs-200);
+              }
+
+              &:hover{
+                color: var(--clr-primary-500);
+                @include transition(color);
+              }
+
+              &::before{
+                font-family: 'icon';
+                font-size: 12px;
+                content: '\e902';
+                margin-right: var(--fs-100);
+              }
+            }
+          }
+        }
+      }
+
+      &__social{
+        ul{
+          li{
+            width: 5rem;
+            height: 5rem;
+            color: var(--clr-dark-blue-500);
+            line-height: 1.1!important;
+            border-radius: 50%;
+            background: var(--clr-primary-500);
+            @include transition(all);
+
+            &:hover{
+              background: darken($primary, 10%);
+              color: var(--clr-white-500);
+              @include transition(all);
+            }
+
+            a{
+              width: 100%;
+              height: 100%;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              font-size: 2rem;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  //breakpoint tablet
+  @include mq(md){
+    &__row{
+      grid-template-columns: 1fr;
+      gap: var(--fs-800);
+    }
+  }
+}

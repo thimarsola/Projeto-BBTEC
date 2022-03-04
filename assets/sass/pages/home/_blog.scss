@@ -1,0 +1,51 @@
+@use "../../abstracts" as *;
+
+.blog{
+  background: linear-gradient(#f2f2f2, transparent);
+
+  &__row{
+    &__card{
+      &__thumb{
+        position: relative;
+
+        img{
+          filter: none;
+          @include transition(filter);
+
+          &:hover{
+            filter: blur(1px);
+            @include transition(filter);
+          }
+        }
+
+        &__published{
+          position: absolute;
+          bottom: -3.7rem;
+          right: 3rem;
+
+          &__body{
+            min-width: 8rem;
+
+            &:nth-child(1){
+              padding: .4rem 1.5rem;
+              font-size: 2rem;
+            }
+
+            &:nth-child(2){
+              padding: .8rem 1.5rem;
+              font-size: 1.4rem;
+            }
+          }
+        }
+      }
+
+      &__body{
+        font-size: 1.4rem;
+
+        i{
+          margin-left: .4rem;
+        }
+      }
+    }
+  }
+}

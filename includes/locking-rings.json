@@ -1,0 +1,15 @@
+{
+  "locking": [
+    {
+      "image": "508.jpg",
+      "title": "Grupo 508",
+      "description": [
+        "Aplicados em furos e eixos, os Anéis de Travamento são o sistema de fixação que apresentam a menor largura radial, o que propicia sua aplicação onde o espaço é limitado e os olhais de um anel de retenção não podem ser aplicados. Sua performance é geralmente inferior à do anel de retenção devido a sua seção constante, que provoca uma distribuição de tensão não uniforme através do anel quando submetidos à ação de abrir ou fechar."
+      ],
+      "type": "I",
+      "standard": "DIN 5417",
+      "dimension": "mm",
+      "file": "aneis_de_travamento.pdf"
+    }
+  ]
+}

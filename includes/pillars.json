@@ -1,0 +1,19 @@
+{
+  "pillars": [
+    {
+      "title": "Missão",
+      "icon": "target",
+      "description": "Oferecer soluções em usinagem, borracha, metal x borracha, barramento blindado e elementos de fixação para atender às necessidades do setor industrial, otimizando e adequando processos."
+    },
+    {
+      "title": "Visão",
+      "icon": "eye",
+      "description": "Ser uma opção forte e confiável em usinagem de peças seriadas, borrachas e metal x borracha, barramento blindado e ser a maior e melhor empresa em soluções de fixação em geral."
+    },
+    {
+      "title": "Valores",
+      "icon": "diamond",
+      "description": "Respeitar e desenvolver parcerias.\nValorizar e contribuir para o crescimento profissional dos colaboradores."
+    }
+  ]
+}
