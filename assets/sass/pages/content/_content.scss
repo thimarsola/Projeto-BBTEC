@@ -116,6 +116,10 @@
                         align-items: center;
                         flex-wrap: nowrap;
                         text-align: left;
+                        
+                        &:not(:last-child){
+                            margin-bottom: var(--fs-200) !important;
+                        }
 
                         span{
                             display: block;

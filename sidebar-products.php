@@ -52,17 +52,21 @@
         </header>
         <!-- end of header -->
 
-        <?php $baseurl = wp_get_upload_dir(); ?>
+        <?php 
+            $baseurl = wp_get_upload_dir(); 
+            
+            $jsonCatalogues = file_get_contents(__DIR__ . '/includes/catalogues.json');
+            $cataloguesList = json_decode($jsonCatalogues, true);
+            
+            foreach ($cataloguesList['catalogues'] as $catalogue):
+        ?>
 
-        <a href="<?= $baseurl['baseurl']  . '/2022/catalogo-barramentos-blindados.pdf'?>" class="btn btn-block btn-primary-500 l-small" title="Baixe o nosso catálogo" target="_blank">
-            <i class="icon-file mr-1"></i>
-            <span>Catálogo Barramentos Blindados</span>
-        </a>
-        <br>
-        <a href="<?= $baseurl['baseurl']  . '/2022/catalogo-mini-way.pdf'?>" class="btn btn-block btn-primary-500 l-small" title="Baixe o nosso catálogo" target="_blank">
-            <i class="icon-file mr-1"></i>
-            Catálogo Mini-Way (Trilho Eletrificado)
-        </a>
+                <a href="<?= $baseurl['baseurl']  . '/2022/' . $catalogue['file']; ?>" class="btn btn-block btn-primary-500 l-small" title="Baixe o nosso catálogo" target="_blank">
+                    <i class="icon-file mr-1"></i>
+                    <span><?= $catalogue['title']; ?></span>
+                </a>
+        
+        <?php endforeach; ?>
     </div>
     <!-- end of catalogue -->
 </aside>

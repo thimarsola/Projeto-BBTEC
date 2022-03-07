@@ -31,7 +31,7 @@
 
                     <!-- body -->
                     <div class="disadvantages__row__card__body t-center">
-                        <p class="t-small mb-4"><?= $disadvantage['description']; ?></p>
+                        <p class="t-small"><?= $disadvantage['description']; ?></p>
                     </div>
                     <!-- end of body -->
                 </article>
