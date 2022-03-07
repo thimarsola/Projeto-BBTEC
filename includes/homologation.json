@@ -1,0 +1,24 @@
+{
+    "homologation": [
+        {
+            "title": "Celesc", 
+            "image": "homologacao-celesc"
+        },
+        {
+            "title": "Copel", 
+            "image": "homologacao-copel"
+        },
+        {
+            "title": "Light", 
+            "image": "homologacao-light"
+        },
+        {
+            "title": "Enel", 
+            "image": "homologacao-enel"
+        },
+        {
+            "title": "EDP", 
+            "image": "homologacao-edp"
+        }
+    ]
+}

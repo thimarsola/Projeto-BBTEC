@@ -1,21 +1,21 @@
 $(function () {
-    $(".testimonial__row").owlCarousel({
+    $(".homologation__row").owlCarousel({
         loop: true,
         margin: 30,
         nav: false,
         autoplay: true,
         autoplayTimeout: 4000,
         autoplayHoverPause: true,
-        autoHeight:true,
+        autoHeight:false,
         responsive: {
             0: {
                 items: 1,
             },
             600: {
-                items: 1,
+                items: 2,
             },
             1000: {
-                items: 2,
+                items: 3,
             }
         }
     });
