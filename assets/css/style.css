@@ -1647,7 +1647,7 @@ body {
   font-size: 1.5rem;
 }
 .footer__cta__row__card a:hover {
-  color: var(--clr-blue-500);
+  color: var(--clr-dark-blue-500);
 }
 .footer__content {
   padding: 14.8rem 0 8rem 0;

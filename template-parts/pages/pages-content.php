@@ -18,18 +18,8 @@
                 <?php
                 get_template_part('template-parts/pages/content', 'container');
 
-                if(is_page('Anéis e Pinos Elásticos')){
-                    get_template_part('template-parts/pages/content', 'ring');
-                }elseif(is_page('Anéis de Retenção')){
-                    get_template_part('template-parts/pages/content', 'retention-ring');
-                }elseif(is_page('Usinagem')){
-                    get_template_part('template-parts/pages/content', 'machining');
-                }elseif (is_page('Anéis de Travamento')){
-                    get_template_part('template-parts/pages/content', 'locking-ring');
-                }elseif (is_page('Pinos Elásticos')){
-                    get_template_part('template-parts/pages/content', 'pin');
-                }elseif (is_page(['Molas Prato', 'Barramento Blindado', 'Metal x Borracha'])){
-                    get_template_part('template-parts/pages/content', 'cta');
+                if(is_page('Barramento Blindado')){
+                    get_template_part('template-parts/pages/content', 'busway');
                 }
                 ?>
             </div>
