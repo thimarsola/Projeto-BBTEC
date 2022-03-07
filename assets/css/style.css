@@ -1676,8 +1676,13 @@ body {
   color: var(--clr-primary-500);
   transition: color 300ms ease-in-out;
 }
+.footer__content__row__card:nth-child(3) ul li:nth-child(2) address {
+  flex-wrap: nowrap;
+}
 .footer__copyright {
   font-size: 1.5rem;
+}
+.footer__copyright p {
   line-height: 1.1 !important;
 }
 .footer__developer__row {
@@ -2460,12 +2465,12 @@ img.mfp-img {
   margin-left: 0.4rem;
 }
 @media only screen and (max-width: 768px) {
-  .blog {
+  .blog__row {
     grid-template-columns: repeat(2, 1fr);
   }
 }
 @media only screen and (max-width: 576px) {
-  .blog {
+  .blog__row {
     grid-template-columns: 1fr;
   }
 }

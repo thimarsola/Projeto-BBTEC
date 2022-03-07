@@ -29,11 +29,15 @@
     
     //breakpoint tablet
     @include mq(md){
-        grid-template-columns: repeat(2, 1fr);
+        &__row{
+            grid-template-columns: repeat(2, 1fr);
+        }
     }
     
     //breakpoint mobile
     @include mq(sm){
-        grid-template-columns: 1fr;
+        &__row{
+            grid-template-columns: 1fr;
+        }
     }
 }
