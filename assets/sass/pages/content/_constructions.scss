@@ -1,0 +1,50 @@
+@use "../../abstracts" as *;
+
+.private{
+    background: linear-gradient(#f2f2f2, transparent);
+}
+
+.public, .private{
+    &__row{
+        &__card{
+            padding: calc(var(--gap) * 2) var(--gap);
+            display: flex;
+            flex-flow: column;
+
+            &__icon{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin: 0 auto;
+                width: 14rem;
+                height: 10rem;
+                background: {
+                    image: url("../images/background-products.jpg");
+                    size: contain;
+                    position: center;
+                    repeat: no-repeat;
+                }
+            }
+            
+            &__content{
+                height: 100%;
+                display: flex;
+                flex-flow: column;
+                gap: var(--gap);
+                
+                &__header{
+                    h3{
+                        font-size: 2rem;
+                    }
+                }
+                
+                &__body{
+                    height: 100%;
+                    display: flex;
+                    flex-flow: column;
+                    justify-content: flex-end;
+                }
+            }
+        }
+    }
+}
