@@ -1,0 +1,46 @@
+@use "../../abstracts" as *;
+
+.catalogues{
+    &__row{
+        grid-template-columns: repeat(3, 1fr);
+
+        &__card{
+            padding: calc(var(--gap) * 2) var(--gap);
+
+            &__icon{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin: 0 auto;
+                width: 14rem;
+                height: 10rem;
+                background: {
+                    image: url("../images/background-products.jpg");
+                    size: contain;
+                    position: center;
+                    repeat: no-repeat;
+                }
+            }
+
+            &__header{
+                h3{
+                    font-size: 2rem;
+                }
+            }
+        }
+    }
+    
+    //breakpoint tablet
+    @include mq(md){
+        &__row{
+            grid-template-columns: repeat(2, 1fr);
+        }
+    }
+    
+    //breakpoint mobile
+    @include mq(sm){
+        &__row{
+            grid-template-columns: 1fr;
+        }
+    }
+}
