@@ -160,7 +160,10 @@
                       <!-- header -->
                        <div class="footer__content__row__card__header mb-3">
                            <h2 class="f-3 clr-white-500 d-none"><?= SITE['name']; ?></h2>
-                           <i class="icon-logo-irc f-10 clr-white-500"></i>
+<!--                           <i class="icon-logo-irc clr-white-500"></i>-->
+                           <a rel="nofollow noopener noreferrer" href="<?= CONTACT['irc']; ?>" title="Indústrias RC">
+                               <img  src="<?= image('logo-irc.svg', 'svg'); ?>" alt="Indústrias RC" title="Indústrias RC" loading="lazy">
+                           </a>
                        </div>
                       <!-- end of header -->
 
@@ -180,7 +183,7 @@
     <!-- end of content -->
 
     <!-- copyright -->
-    <div class="footer__content__copyright py-1 t-center">
+    <div class="footer__copyright py-1 t-center">
         <div class="container">
             <p><small>&COPY; <?= date('Y'); ?> - <?= SITE['name']; ?> - <?= (is_page('Política de privacidade') ? 'Todos os direitos reservados' : '<a class="link-neutral-500" href="' .  get_the_permalink(get_page_by_title('Política de privacidade')) . '" target="_blank" title="Conheça a nossa Política de Privacidade">Todos os direitos reservados</a>') ?></small></p>
         </div>
