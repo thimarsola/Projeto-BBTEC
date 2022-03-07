@@ -2,7 +2,7 @@
 
 $(document).ready(function () {
     const path = $(location).attr("href").split("contato/", 1).reverse().join('');
-    const file = 'wp-content/themes/industriasrc/source/Support/Sender.php';
+    const file = 'wp-content/themes/bbtec/source/Support/Sender.php';
 
     $('#form').submit(function () {
         $(".contact__container__row__form__content__status").removeClass("d-none");

@@ -43,7 +43,7 @@
                              <!-- group -->
                               <div class="contact__container__row__form__content__group">
                                   <label for="message" class="d-none">Escreva sua mensagem</label>
-                                  <textarea name="message" id="message" cols="30" rows="10" placeholder="Escreva a sua mensagem"></textarea>
+                                  <textarea name="message" id="message" cols="30" rows="6" placeholder="Escreva a sua mensagem"></textarea>
                               </div>
                              <!-- end of group -->
 
@@ -57,7 +57,7 @@
 
                              <!-- button -->
                              <div class="contact__container__row__form__content__button">
-                                 <button id="button-contact" class="btn btn-primary-500" type="submit" name="submit" value="submit">Enviar mensagem <i class="icon-send"></i></button>
+                                 <button id="button-contact" class="btn btn-primary-500 radius" type="submit" name="submit" value="submit">Enviar mensagem <i class="icon-send"></i></button>
                              </div>
                              <!-- end of button -->
 
@@ -82,7 +82,7 @@
                            <div class="contact__container__row__information__card__content">
 
                                <!-- header -->
-                                <header class="contact__container__row__information__card__content__header mb-2">
+                                <header class="contact__container__row__information__card__content__header">
                                     <h2 class="f-3">Localização</h2>
                                 </header>
                                <!-- end of header -->
@@ -116,7 +116,7 @@
                            <div class="contact__container__row__information__card__content">
 
                                <!-- header -->
-                                <header class="contact__container__row__information__card__content__header mb-2">
+                                <header class="contact__container__row__information__card__content__header">
                                     <h2 class="f-3">Faça uma ligação</h2>
                                 </header>
                                <!-- end of header -->
@@ -148,7 +148,7 @@
                            <div class="contact__container__row__information__card__content">
 
                                <!-- header -->
-                                <header class="contact__container__row__information__card__content__header mb-2">
+                                <header class="contact__container__row__information__card__content__header">
                                     <h2 class="f-3">Envie um e-mail</h2>
                                 </header>
                                <!-- end of header -->

@@ -125,9 +125,9 @@ textarea {
   font-family: var(--regular) !important;
   color: var(--clr-gray-500) !important;
   line-height: 1.5;
-  border: 2px solid var(--clr-light-blue-500);
+  border: 2px solid var(--clr-light-gray-500);
   border-radius: 0;
-  background: var(--clr-light-blue-500);
+  background: var(--clr-light-gray-500);
   transform: scale(1);
   -webkit-appearance: none !important;
   -webkit-border-radius: 0 !important;
@@ -2290,7 +2290,8 @@ body {
 .contact__container__row__information__card {
   display: flex;
   align-items: center;
-  gap: var(--fs-300);
+  flex-wrap: wrap;
+  gap: var(--gap);
 }
 .contact__container__row__information__card:not(:last-child) {
   margin-bottom: var(--fs-500);
@@ -2300,6 +2301,9 @@ body {
   height: var(--fs-900);
   background: var(--clr-light-blue-500);
   border: 1px solid var(--clr-primary-500);
+}
+.contact__container__row__information__card__content {
+  flex-basis: 100%;
 }
 @media only screen and (max-width: 1024px) {
   .contact__container__row {
