@@ -1,22 +1,4 @@
-<?php
-
-$image = null;
-
-if(is_page('Sobre nós')){
-    $image = 'hero__about';
-}elseif(is_page('Empresas')){
-    $image = 'hero__companies';
-}elseif(is_page('Contato')){
-    $image = 'hero__contact';
-}elseif(is_page('Blog') || is_single() || is_archive()){
-    $image = 'hero__blog';
-}else{
-    $image = 'hero__page';
-}
-
-?>
-
-<div class="hero <?= $image; ?>">
+<div class="hero">
     <div class="container">
 
         <!-- content -->

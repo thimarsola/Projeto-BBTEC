@@ -219,7 +219,7 @@
                         }
                         ?>
 
-                        <p><small><a rel="nofollow noreferrer noopener" class="d-flex jc-center ai-center link-white-500"  href="https://validator.w3.org/nu/?showsource=yes&showoutline=yes&showimagereport=yes&doc=https%3A%2F%2F<?= $urlBase; ?>%2F" target="_blank" title="Tecnologia W3C"><i class="icon-html"></i>W3C Validator </a></small></p>
+                        <p><small><a rel="nofollow noreferrer noopener" class="d-flex jc-center ai-center link-white-500"  href="https://validator.w3.org/nu/?doc=https%3A%2F%2F<?= $urlBase; ?>%2F" target="_blank" title="Tecnologia W3C"><i class="icon-html"></i>W3C Validator </a></small></p>
                     </div>
                 <?php endif; ?>
                 <!-- end of validator -->
