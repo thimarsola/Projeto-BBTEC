@@ -2027,6 +2027,64 @@ body {
   }
 }
 
+.characteristics__card ul {
+  list-style: disc;
+  list-style-position: inside;
+}
+.characteristics__card ul li:not(:last-child) {
+  margin-bottom: var(--fs-200);
+}
+
+.advantages__row__card, .disadvantages__row__card {
+  padding: calc(var(--gap) * 2) var(--gap);
+}
+.advantages__row__card__icon, .disadvantages__row__card__icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  width: 14rem;
+  height: 10rem;
+  background-image: url("../images/background-products.jpg");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.advantages__row__card__header h3, .disadvantages__row__card__header h3 {
+  font-size: 2rem;
+}
+
+.applications {
+  background: linear-gradient(#f2f2f2, transparent);
+}
+.applications__header {
+  text-align: left !important;
+}
+.applications__header .title__divider {
+  justify-content: flex-start;
+}
+.applications__row__card {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+.applications__row__card__content {
+  position: relative;
+}
+.applications__row__card__content__image {
+  width: 100%;
+  height: 24rem;
+}
+.applications__row__card__content__header {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  padding: var(--gap) calc(var(--gap) * 2);
+}
+.applications__row__card__content__header h3 {
+  font-size: 2rem;
+}
+
 .content__row {
   grid-template-columns: 35rem 1fr;
 }

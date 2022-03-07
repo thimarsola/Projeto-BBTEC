@@ -1,0 +1,41 @@
+@use "../../abstracts" as *;
+
+.applications{
+    background: linear-gradient(#f2f2f2, transparent);
+    
+    &__header{
+        text-align: left !important;
+        
+        .title__divider{
+            justify-content: flex-start;
+        }
+    }
+
+    &__row{
+        &__card{
+            position: relative;
+            width: 100%;
+            height: 100%;
+            
+            &__content{
+                position: relative;
+                
+                &__image{
+                    width: 100%;
+                    height: 24rem;
+                }
+
+                &__header{
+                    position: absolute;
+                    bottom: 0;
+                    right: 0;
+                    padding: var(--gap) calc(var(--gap) * 2);
+                    
+                    h3{
+                        font-size: 2rem;
+                    }
+                }
+            }
+        }
+    }
+}

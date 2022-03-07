@@ -1,8 +1,8 @@
 <?php get_header(); ?>
 
-<!-- hero -->
+    <!-- hero -->
 <?php get_template_part('template-parts/pages/pages', 'hero'); ?>
-<!-- end of hero -->
+    <!-- end of hero -->
 
 <?php
 
@@ -11,6 +11,11 @@ if(is_page('Sobre nós')){
     get_template_part('template-parts/pages/pages', 'pillars');
     get_template_part('template-parts/home/home', 'certification');
     get_template_part('template-parts/pages/pages', 'homologation');
+}elseif(is_page('Características')){
+    get_template_part('template-parts/pages/pages', 'characteristics');
+    get_template_part('template-parts/pages/pages', 'advantages');
+    get_template_part('template-parts/pages/pages', 'disadvantages');
+    get_template_part('template-parts/pages/pages', 'applications');
 }elseif(is_page('Nossos Produtos')){
     get_template_part('template-parts/home/home', 'products');
 }elseif(is_page('Contato')){
