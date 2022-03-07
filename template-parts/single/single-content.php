@@ -7,13 +7,6 @@
 
              <!-- content -->
               <div class="single__row__content">
-
-                  <!-- thumb -->
-                   <div class="single__row__content__thumb">
-                       <?= get_the_post_thumbnail(get_the_ID(), 'post-image'); ?>
-                   </div>
-                  <!-- end of thumb -->
-
                   <!-- published -->
                    <div class="single__row__content__published py-3">
                        <p>
@@ -38,7 +31,7 @@
                   <!-- end of body -->
 
                   <!-- share -->
-                  <div class="single__row__content__share p-4 bg-light-blue-500 mt-8 radius">
+                  <div class="single__row__content__share p-4 bg-light-gray-500 mt-8 radius">
                       <!-- links -->
                       <div class="single__row__content__share__links d-flex ai-center">
                           <p>Compartilhe:</p>

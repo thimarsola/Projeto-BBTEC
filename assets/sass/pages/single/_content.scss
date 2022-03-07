@@ -127,22 +127,6 @@
           gap: var(--fs-400);
 
           &__card{
-            display: flex;
-            align-items: center;
-            gap: var(--gap);
-
-            &__thumb{
-              img{
-                filter: none;
-                @include transition(filter);
-
-                &:hover{
-                  filter: blur(1px);
-                  @include transition(filter);
-                }
-              }
-            }
-
             &__content{
               &__header{
                 font-size: 1.8rem;
@@ -186,15 +170,14 @@
           li{
             width: 5rem;
             height: 5rem;
-            color: var(--clr-dark-blue-500);
+            color: var(--clr-white-500);
             line-height: 1.1!important;
             border-radius: 50%;
             background: var(--clr-primary-500);
             @include transition(all);
 
             &:hover{
-              background: darken($primary, 10%);
-              color: var(--clr-white-500);
+              background: var(--clr-dark-blue-500);
               @include transition(all);
             }
 

@@ -1,14 +1,5 @@
 <!-- card -->
 <article class="blog__row__sidebar__highlight__content__card">
-
-    <!-- thumb -->
-    <div class="blog__row__sidebar__highlight__content__card__thumb">
-        <a href="<?= get_the_permalink() ?>" title="Veja mais sobre esse artigo" target="_blank">
-            <?= get_the_post_thumbnail(get_the_ID(), [80,80]); ?>
-        </a>
-    </div>
-    <!-- end of thumb -->
-
     <!-- content -->
     <div class="blog__row__sidebar__highlight__content__card__content">
 

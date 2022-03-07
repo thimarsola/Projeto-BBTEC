@@ -1,15 +1,7 @@
 <!-- card -->
 <article class="blog__row__container__content__card">
-    <!-- thumb -->
-    <div class="blog__row__container__content__card__thumb radius">
-        <a href="<?= get_the_permalink() ?>" title="Veja mais sobre esse artigo" target="_blank">
-            <?= get_the_post_thumbnail(get_the_ID(), 'large'); ?>
-        </a>
-    </div>
-    <!-- end of thumb -->
-
     <!-- published -->
-    <div class="blog__row__container__content__card__published my-3">
+    <div class="blog__row__container__content__card__published mb-3">
         <p>
             <small class="d-flex ai-center l-small clr-gray-500">
                 <i class="icon-calendar mr-1"></i>
