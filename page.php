@@ -20,6 +20,9 @@ if(is_page('Sobre nós')){
     get_template_part('template-parts/home/home', 'products');
 }elseif(is_page('Catálogos')){
     get_template_part('template-parts/pages/pages', 'catalogues');
+}elseif(is_page('Obras')){
+    get_template_part('template-parts/pages/pages', 'public');
+    get_template_part('template-parts/pages/pages', 'private');
 }elseif(is_page('Contato')){
     get_template_part('template-parts/pages/pages', 'contact');
 }elseif(is_page('Blog')){

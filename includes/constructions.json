@@ -1,0 +1,102 @@
+{
+    "public": [
+        {
+            "company": "Instituto de Assistência aos Servidores Públicos do Estado de Goiás",
+            "place": "Goiânia/GO"
+        },
+        {
+            "company": "Instituto Nacional de Pesquisas Espaciais",
+            "place": "São José dos Campos/SP"
+        },
+        {
+            "company": "Justiça Federal de Belo Horizonte",
+            "place": "Belo Horizonte/MG"
+        },
+        {
+            "company": "Ministério Público de Curitiba",
+            "place": "Curitiba/PR"
+        },
+        {
+            "company": "Ministério Público de São Paulo",
+            "place": "São Paulo/SP"
+        },
+        {
+            "company": "Tribunal de Justiça de São Paulo",
+            "place": "São Paulo/SP"
+        },
+        {
+            "company": "UNIFESP",
+            "place": "Diadema/SP"
+        },
+        {
+            "company": "UNIFESP",
+            "place": "São Paulo/SP"
+        },
+        {
+            "company": "Universidade Federal Fluminense",
+            "place": "Niterói/RJ"
+        }
+    ],
+    "private": [
+        {
+            "company": "Eberspacher",
+            "place": "Sorocaba/SP"
+        },
+        {
+            "company": "General Electric",
+            "place": "Taubaté/SP"
+        },
+        {
+            "company": "Gestamp",
+            "place": "Taubaté/SP"
+        },
+        {
+            "company": "Kim Pães",
+            "place": "Carapicuíba/SP"
+        },
+        {
+            "company": "Leroy Merlin",
+            "place": "São Paulo/SP"
+        },
+        {
+            "company": "SESI",
+            "place": "Catumbi/SP"
+        },
+        {
+            "company": "SESI",
+            "place": "Paulinia/SP"
+        },
+        {
+            "company": "Shopping Catarina Fashion Outlet",
+            "place": "São Roque/SP"
+        },
+        {
+            "company": "Shopping Light",
+            "place": "São Paulo/SP"
+        },
+        {
+            "company": "SPE Residencial",
+            "place": "Goiânia/GO"
+        },
+        {
+            "company": "Tigre",
+            "place": "Maceió/AL"
+        },
+        {
+            "company": "TIM",
+            "place": "Santo André/SP"
+        },
+        {
+            "company": "Promater Amil",
+            "place": "Natal/RN"
+        },
+        {
+            "company": "Medical",
+            "place": "Limeira/SP"
+        },
+        {
+            "company": "São Lucas",
+            "place": "Rio de Janeiro/RJ"
+        }
+    ]
+}
