@@ -13,11 +13,11 @@
             justify-content: space-between;
             align-items: center;
             line-height: 1 !important;
-            background: var(--clr-light-blue-500);
+            background: var(--clr-dark-blue-500);
             @include transition(background);
 
             &:hover{
-              background: darken($light-blue, 5%);
+              background: darken($dark-blue, 5%);
               color: var(--clr-primary-500);
               @include transition(all);
 

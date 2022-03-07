@@ -3,7 +3,7 @@
      <div class="container">
 
          <!-- header -->
-          <?= title('pillars__header', 'Conheça mais sobre os', 'Nossos Pilares'); ?>
+          <?= title('pillars__header', 'Conheça mais sobre os', 'Pilares do Grupo Indústrias RC'); ?>
          <!-- end of header -->
 
          <!-- row -->
