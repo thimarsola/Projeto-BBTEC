@@ -5,7 +5,7 @@
 <!-- end of header -->
 
 <!-- highlight -->
-<div class="single__row__sidebar__highlight p-4 bg-light-blue-500 radius mb-7">
+<div class="single__row__sidebar__highlight p-4 bg-light-gray-500 radius mb-7">
 
     <!-- header -->
     <header class="single__row__sidebar__highlight__header title">
@@ -48,7 +48,7 @@
 <!-- end of highlight -->
 
 <!-- categories -->
-<div class="single__row__sidebar__categories p-4 bg-light-blue-500 radius mb-7">
+<div class="single__row__sidebar__categories p-4 bg-light-gray-500 radius mb-7">
     <!-- header -->
     <header class="single__row__sidebar__categories__header title">
         <h3 class="f-3 mb-1 t-left">Lista de Categorias</h3>
@@ -76,7 +76,7 @@
 <!-- end of categories -->
 
 <!-- social -->
-<div class="single__row__sidebar__social p-4 bg-light-blue-500 radius">
+<div class="single__row__sidebar__social p-4 bg-light-gray-500 radius">
     <!-- header -->
     <header class="single__row__sidebar__social__header title">
         <h3 class="f-3 mb-1 t-left">Mídias Sociais</h3>
