@@ -1,0 +1,16 @@
+@use "../../abstracts" as *;
+
+.characteristics{
+    &__card{
+        ul{
+            list-style: disc;
+            list-style-position: inside;
+            
+            li{
+                &:not(:last-child){
+                    margin-bottom: var(--fs-200);
+                }
+            }
+        }
+    }
+}

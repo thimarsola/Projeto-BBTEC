@@ -1,0 +1,104 @@
+{
+    "advantages": [
+        {
+            "title": "Flexibilidade",
+            "description": "Flexibilidade para fazer novas mudanças em projetos elétricos, não havendo mudanças drásticas de layout do ambiente."
+        },
+        {
+            "title": "Confiança e Robustez",
+            "description": "Sistema de alta confiabilidade e robustez."
+        },
+        {
+            "title": "Identificação Visual",
+            "description": "Fácil identificação visual que colabora para um ambiente limpo e organizado."
+        },
+        {
+            "title": "Caixas de Derivação",
+            "description": "Para ligações mistas, ou seja, de barramentos para cabos ou vice e versa."
+        },
+        {
+            "title": "Transporte de Energia",
+            "description": "Eficiência no transporte e redução na perda de energia."
+        },
+        {
+            "title": "Sem Leitos e Eletrocalhas",
+            "description": "Dispensa a instalação de leitos e eletrocalhas."
+        },
+        {
+            "title": "Facilidades",
+            "description": "Facilidades em montagem, manutenção e desmontagem dos equipamentos, tendo um melhor aproveitamento dos componentes."
+        },
+        {
+            "title": "Redução da Área de Instalação",
+            "description": "Redução da área de instalação, sendo utilizada apenas 70% da área anterior."
+        },
+        {
+            "title": "Tempo de Instalação",
+            "description": "Tempo de instalação reduzido."
+        }
+    ],
+    "disadvantages": [
+        {
+            "title": "Adaptações",
+            "description": "Dificuldade no acréscimo de novas cargas e adaptações as mudanças de projeto."
+        },
+        {
+            "title": "Uso de eletro dutos e calhas",
+            "description": "É preciso utilizar eletro dutos e eletro calhas em suas instalações."
+        },
+        {
+            "title": "Resistência",
+            "description": "Menor resistência em sobre-correntes e curto-circuitos."
+        },
+        {
+            "title": "Mais Acessórios",
+            "description": "A cada emenda e derivação é necessário o uso de terminações e caixas de passagens."
+        },
+        {
+            "title": "Vida Útil",
+            "description": "A vida útil dos cabos são determinadas pelo material isolante utilizado em sua fabricação."
+        },
+        {
+            "title": "Identificação Visual",
+            "description": "Grande dificuldade de identificação visual e organizações dos circuitos."
+        }
+    ],
+    "applications": [
+        {
+            "title": "Indústrias",
+            "image": "imagem-aplicacao-industrias"
+        },
+        {
+            "title": "Shoppings",
+            "image": "imagem-aplicacao-shoppings"
+        },
+        {
+            "title": "Prédios Residenciais",
+            "image": "imagem-aplicacao-predios-residenciais"
+        },
+        {
+            "title": "Aeroportos",
+            "image": "imagem-aplicacao-aeroportos"
+        },
+        {
+            "title": "Prédios Comerciais",
+            "image": "imagem-aplicacao-predios-comerciais"
+        },
+        {
+            "title": "Supermercados",
+            "image": "imagem-aplicacao-supermercados"
+        },
+        {
+            "title": "Subestações",
+            "image": "imagem-aplicacao-subestacoes"
+        },
+        {
+            "title": "Hospitais",
+            "image": "imagem-aplicacao-hospitais"
+        },
+        {
+            "title": "Centros de Distribuição",
+            "image": "imagem-aplicacao-centros-de-distribuicao"
+        }
+    ]
+}

@@ -1,0 +1,30 @@
+@use "../../abstracts" as *;
+
+.advantages, .disadvantages{
+    &__row{
+        &__card{
+            padding: calc(var(--gap) * 2) var(--gap);
+
+            &__icon{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin: 0 auto;
+                width: 14rem;
+                height: 10rem;
+                background: {
+                    image: url("../images/background-products.jpg");
+                    size: contain;
+                    position: center;
+                    repeat: no-repeat;
+                }
+            }
+
+            &__header{
+                h3{
+                    font-size: 2rem;
+                }
+            }
+        }
+    }
+}
