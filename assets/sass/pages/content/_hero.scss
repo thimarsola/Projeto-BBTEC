@@ -1,0 +1,13 @@
+@use "../../abstracts" as *;
+
+.hero{
+    min-height: 30rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:{
+        image: url("../images/background-hero-pages.jpg");
+        size: cover;
+        position: center;
+    }
+}

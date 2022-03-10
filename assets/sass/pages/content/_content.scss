@@ -1,0 +1,156 @@
+@use "../../abstracts" as *;
+
+.content{
+    &__row{
+        grid-template-columns: max(35rem) 1fr;
+
+        &__aside{
+            &__sidebar{
+                ul{
+                    li{
+                        position: relative;
+                        padding: 0 var(--fs-300);
+                        display: flex;
+                        justify-content: space-between;
+                        align-items: center;
+                        line-height: 1 !important;
+                        background: #EEF1F6;
+                        @include transition(background);
+
+                        a, p{
+                            padding: var(--fs-300) 0;
+                            flex-grow: 1;
+                        }
+
+                        &:hover{
+                            background: var(--clr-primary-500);
+                            color: var(--clr-white-500);
+                            @include transition(all);
+
+                            a{
+                                color: var(--clr-white-500);
+                            }
+                        }
+
+                        &:nth-child(1){
+                            display: none;
+                        }
+
+                        &:not(:last-child){
+                            border-bottom: 1px solid #DDD;
+                        }
+
+                        &.active{
+                            border-left: 5px solid var(--clr-primary-500);
+
+                            &:hover{
+                                color: var(--clr-neutral-500);
+                                background: #EEF1F6;
+                                cursor: no-drop;
+                            }
+                        }
+                    }
+                }
+
+                &__cta{
+                    padding: var(--fs-600);
+                    background:{
+                        image: url("../images/background-telefone.jpg");
+                        size: cover;
+                        position: center top;
+                    }
+
+                    &__icon{
+                        position: relative;
+                        margin: var(--fs-400) auto;
+                        width: 11rem;
+                        height: 11rem;
+                        border-radius: 50%;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        line-height: 1!important;
+
+                        &::before{
+                            position: absolute;
+                            width: 120%;
+                            height: 120%;
+                            content: '';
+                            background: rgba($primary, .3);
+                            border-radius: 50%;
+                            z-index: 0;
+                            transform: translate(-50%, -50%) !important;
+                            animation: scale 1800ms infinite alternate-reverse;
+
+                            @keyframes scale {
+                                from {
+                                    opacity: 1;
+                                    transform: scale(1);
+                                }
+
+                                to {
+                                    opacity: 0;
+                                    transform: scale(1.08);
+                                }
+                            }
+                        }
+
+                        i{
+                            z-index: 1;
+                        }
+                    }
+                }
+
+                &__catalogue{
+                    .title{
+                        margin-bottom: var(--fs-500) !important;
+
+                        &__divider{
+                            margin-top: 12px;
+                        }
+                    }
+
+                    a{
+                        display: flex !important;
+                        justify-content: flex-start;
+                        align-items: center;
+                        flex-wrap: nowrap;
+                        text-align: left;
+                        
+                        &:not(:last-child){
+                            margin-bottom: var(--fs-200) !important;
+                        }
+
+                        span{
+                            display: block;
+                            flex-grow: 1;
+                        }
+                    }
+                }
+            }
+        }
+
+        &__container{
+
+            &__body{
+                p{
+                    &:not(:last-child){
+                        margin-bottom: var(--fs-200);
+                    }
+                }
+            }
+        }
+    }
+
+    //breakpoint tablet
+    @include mq(md){
+        &__row{
+            grid-template-columns: 1fr;
+            gap: var(--fs-800);
+
+            &__container{
+                order: -1;
+            }
+        }
+    }
+}

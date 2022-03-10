@@ -1,0 +1,38 @@
+@use "../../abstracts" as *;
+
+.gallery{
+    &__row{
+        grid-template-columns: repeat(4, 1fr);
+        gap: var(--gap);
+
+        &__card{
+            height: 25rem;
+            transform: scale(1);
+            @include transition(all);
+
+            &:hover{
+                transform: scale(.98);
+                filter: blur(1px);
+                @include transition(all);
+            }
+        }
+    }
+
+    //breakpoint tablet
+    @include mq(md){
+        &__row{
+            grid-template-columns: repeat(3, 1fr);
+
+            &__card{
+                height: 20rem;
+            }
+        }
+    }
+
+    //breakpoint mobile
+    @include mq(sm){
+        &__row{
+            grid-template-columns: repeat(2, 1fr);
+        }
+    }
+}

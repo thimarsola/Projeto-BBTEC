@@ -1,0 +1,78 @@
+@use "../../abstracts" as *;
+
+.products{
+    position: relative;
+
+    &::before {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 40rem;
+        height: 55rem;
+        display: block;
+        content: '';
+        background: {
+            image: url("../images/vetor-topo.png");
+            size: contain;
+            position: right top;
+            repeat: no-repeat;
+        }
+    }
+
+    &::after{
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        width: 14rem;
+        height: 75.5rem;
+        display: block;
+        content: '';
+        background:{
+            image: url("../images/vetor-baixo.png");
+            size: contain;
+            position: left bottom;
+            repeat: no-repeat;
+        }
+    }
+
+    &__row{
+        position: relative;
+        z-index: 1;
+
+        &__card{
+            position: relative;
+
+            &__image{
+                position: relative;
+                width: 100%;
+                height: 20rem;
+                
+                &__release{
+                    position: absolute;
+                    bottom: 0;
+                    right: 0;
+                }
+            }
+
+            &__content{
+                padding: calc(var(--gap) * 2) var(--gap);
+                &__header{
+                    h3{
+                        font-size: 2rem;
+                    }
+                }
+            }
+        }
+    }
+    
+    //breakpoint mobile
+    @include mq(sm){
+        &__row{
+            &__card{
+                &__image{
+                    height: 28rem;
+                }
+            }
+        }
+    }
+}

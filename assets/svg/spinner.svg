@@ -1,0 +1,29 @@
+<svg id="spinner" xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 50 50">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+      }
+
+      .cls-2 {
+        fill: #fff;
+      }
+    </style>
+  </defs>
+  <g id="invisible_box" data-name="invisible box">
+    <rect id="Retângulo_671" data-name="Retângulo 671" class="cls-1" width="50" height="50"/>
+    <rect id="Retângulo_672" data-name="Retângulo 672" class="cls-1" width="50" height="50"/>
+    <rect id="Retângulo_673" data-name="Retângulo 673" class="cls-1" width="50" height="50"/>
+  </g>
+  <g id="Q3_icons" data-name="Q3 icons" transform="translate(1.348 4.977)">
+    <g id="Grupo_2518" data-name="Grupo 2518">
+      <path id="Caminho_2072" data-name="Caminho 2072" class="cls-2" d="M25.4,5.5a1.9,1.9,0,0,0-2.8.2,2,2,0,1,0,2.8-.2Z" transform="translate(-0.244 -4.977)"/>
+      <path id="Caminho_2073" data-name="Caminho 2073" class="cls-2" d="M31.5,8.4a2.2,2.2,0,0,0,.2,3.1,2.3,2.3,0,1,0,3-3.4,2.2,2.2,0,0,0-3.2.3Z" transform="translate(0.263 -4.977)"/>
+      <path id="Caminho_2074" data-name="Caminho 2074" class="cls-2" d="M41.9,19.2a2.7,2.7,0,1,0-1.886.986A2.7,2.7,0,0,0,41.9,19.2Z" transform="translate(0.652 -4.403)"/>
+      <path id="Caminho_2075" data-name="Caminho 2075" class="cls-2" d="M42,27.6a3.5,3.5,0,1,0,.108,4.652A3.5,3.5,0,0,0,42,27.6Z" transform="translate(0.652 -3.656)"/>
+      <path id="Caminho_2076" data-name="Caminho 2076" class="cls-2" d="M26.1,37.1a4.5,4.5,0,1,0,6.3-.5,4.4,4.4,0,0,0-6.3.5Z" transform="translate(0.104 -2.977)"/>
+      <path id="Caminho_2077" data-name="Caminho 2077" class="cls-2" d="M9.9,34.3a5.1,5.1,0,0,0,.5,7.1,5,5,0,1,0-.5-7.1Z" transform="translate(-0.884 -2.977)"/>
+      <circle id="Elipse_16" data-name="Elipse 16" class="cls-2" cx="5.518" cy="5.518" r="5.518" transform="translate(0 12.918) rotate(-4.574)"/>
+    </g>
+  </g>
+</svg>

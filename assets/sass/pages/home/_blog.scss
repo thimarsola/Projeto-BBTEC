@@ -1,0 +1,43 @@
+@use "../../abstracts" as *;
+
+.blog{
+    background: linear-gradient(#f2f2f2, transparent);
+
+    &__row{
+        grid-template-columns: repeat(3, 1fr);
+        
+        &__card{
+            
+            &__header{
+                a{
+                    &:hover{
+                        color: var(--clr-dark-blue-500);
+                    }
+                }
+            }
+            
+            &__body{
+                padding: calc(var(--gap) * 2) var(--gap);
+                font-size: 1.4rem;
+
+                i{
+                    margin-left: .4rem;
+                }
+            }
+        }
+    }
+    
+    //breakpoint tablet
+    @include mq(md){
+        &__row{
+            grid-template-columns: repeat(2, 1fr);
+        }
+    }
+    
+    //breakpoint mobile
+    @include mq(sm){
+        &__row{
+            grid-template-columns: 1fr;
+        }
+    }
+}

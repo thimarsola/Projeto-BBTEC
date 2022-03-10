@@ -1,0 +1,106 @@
+@use "../../abstracts" as *;
+
+.certification{
+  position: relative;
+  width: 100%;
+
+  &::before{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 30rem;
+    content: '';
+    background: var(--clr-light-gray-500);
+    z-index: -1;
+  }
+
+  &__row{
+    width: calc(100% - 10rem);
+    display: flex;
+    align-items: stretch;
+    
+    &__content{
+      padding: 8rem 10rem;
+      flex-basis: 60%;
+
+      &__view{
+        gap: var(--fs-600);
+
+        a{
+          width: 18rem;
+          line-height: 1.1 !important;
+
+          img{
+            margin-bottom: 12px;
+          }
+        }
+      }
+    }
+    
+    &__image{
+      flex-basis: 40%;
+      width: 100%;
+      min-height: 100%;
+
+      img{
+        object-position: 80% top;
+      }
+    }
+  }
+
+  //breakpoint 1440px
+  @include bp(1440px){
+    &__row{
+      &__content{
+        padding: 8rem 6rem;
+      }
+    }
+  }
+
+  //breakpoint 1280px
+  @include bp(1280px){
+    &__row{
+      width: calc(100% - 7rem);
+    }
+  }
+
+  //breakpoint 1024px
+  @include bp(1024px){
+    &__row{
+      &__content{
+        padding: 6rem;
+        flex-grow: 1;
+      }
+
+      &__image{
+        display: none;
+      }
+    }
+  }
+
+  //breakpoint mobile
+  @include mq(sm){
+    &__row{
+      width: calc(100% - 4rem);
+
+      &__content{
+        padding: 6rem 4rem;
+
+        &__view{
+          a{
+            width: 100%;
+            display: flex;
+            align-items: center;
+            gap: var(--gap);
+            text-align: left;
+
+            img{
+              margin-bottom: 0;
+            }
+          }
+        }
+      }
+    }
+  }
+}

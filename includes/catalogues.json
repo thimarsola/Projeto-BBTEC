@@ -1,0 +1,12 @@
+{
+    "catalogues": [
+        {
+            "title": "Catálogo Barramentos Blindados",
+            "file": "catalogo-barramentos-blindados.pdf"
+        },
+        {
+            "title": "Catálogo Mini-way (Trilho Eletrificado)",
+            "file": "catalogo-mini-way.pdf"
+        }
+    ]
+}

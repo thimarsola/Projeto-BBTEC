@@ -1,0 +1,39 @@
+$primary: #29438F;
+$neutral: #666666;
+$white: #fff;
+$whatsapp: #25D366;
+$light-gray: #F5F5F5;
+$blue: $primary;
+$dark-blue: #081740;
+$gray: #999;
+$release: #ccc;
+
+$colors: (
+    "primary": (
+        500: $primary,
+    ),
+    "neutral": (
+        500: $neutral,
+    ),
+    "white":(
+        500: $white
+    ),
+    "whatsapp":(
+        500: $whatsapp
+    ),
+    "light-gray":(
+        500: $light-gray
+    ),
+    "blue":(
+        500: $blue
+    ),
+    "dark-blue":(
+        500: $dark-blue
+    ),
+    "gray":(
+        500: $gray
+    ),
+    "release":(
+        500: $release
+    )
+);
