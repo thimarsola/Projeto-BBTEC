@@ -1,7 +1,7 @@
 <?php get_header(); ?>
 
 <!-- error -->
-<section class="error bg-blue-500">
+<section class="error bg-white-500">
     <div class="container">
 
         <!-- header -->
