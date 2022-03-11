@@ -25,7 +25,7 @@
                   
                   <!-- body -->
                    <div class="homologation__row__card__body">
-                       <?= picture($item['image'], 'Homologação ' . $item['title'], '"homologation__row__card__body__image'); ?>
+                       <?= picture($item['image'], 'Homologação ' . $item['title'], 'homologation__row__card__body__image'); ?>
                    </div> 
                   <!-- end of body -->
               </article> 
