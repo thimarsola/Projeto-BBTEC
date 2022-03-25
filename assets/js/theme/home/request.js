@@ -1,14 +1,15 @@
 // var $j = jQuery.noConflict();
 
 $(document).ready(function () {
-    const path = $(location).attr("href").split("contato/", 1).reverse().join('');
+    const origin = $(location).attr("origin");
+    const pathname = $(location).attr("pathname");
     const file = 'wp-content/themes/bbtec/source/Support/Sender.php';
 
     $('#form').submit(function () {
         $(".contact__container__row__form__content__status").removeClass("d-none");
 
         $.ajax({
-            url: path.concat(file),
+            url: origin.concat(pathname).concat(file),
             type: 'POST',
             cache: false,
             data: $('#form').serialize(),
