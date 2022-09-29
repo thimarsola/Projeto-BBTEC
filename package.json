@@ -1,6 +1,6 @@
 {
   "name": "bbtec",
-  "version": "1.4.0",
+  "version": "1.4.1",
   "description": "Website develop by Goognet Digital Solution Agency for the Indústrias RC",
   "main": "index.js",
   "scripts": {
