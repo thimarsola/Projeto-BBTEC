@@ -73,7 +73,7 @@
     <meta name="twitter:title" content="<?= SITE["name"] ?>">
     <meta name="twitter:description" content="<?= SITE["desc"]; ?>">
     <meta name="twitter:image" content="<?= get_template_directory_uri() . '/assets/images/' . SITE["image"]; ?>">
-    <meta name="twitter:url" content="<?= (is_home() || is_404() ? get_site_url() : get_page_link()); ?>"/>
+    <meta name="twitter:url" content="<?= (is_home() || is_404() ? get_site_url() : get_page_link()); ?>">
 
     <?php if(SITE['gtm'] != null): ?>
 
